@@ -25,3 +25,18 @@ select
 from
   Products
 ;
+
+-- Q4
+select
+  min(Weight) as "最軽量体重"
+from
+  Employees
+;
+
+-- Q5
+select
+  AVG(Height) as "平均身長"
+, AVG(Weight) as "平均体重"
+from
+  Employees
+;
